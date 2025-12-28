@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    
+   }
+
+   .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   }
+
+   .name{
+    height: 200px;
+    width: 100%;
+    background-color: navy;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+   }
+   .name p{
+    color: rgb(rgb(215, 118, 118), rgb(111, 211, 111), rgb(119, 119, 214));
+    font-size: 16px;
+   }
+  .about {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.education {
+  height: fit-content;
+  padding: 20px;
+  width: calc(100% - 100px);
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.education p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: white;
+  width: calc(100% - 60%);
+}
+
+.education p span {
+  font-weight: bold;
+}
+
+.Skills {
+  height: fit-content;
+  padding: 20px;
+  width: calc(100% - 100px);
+  background-color: greenyellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.Skills p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: white;
+  width: calc(100% - 60%);
+}
+
+.Projects {
+  height: fit-content;
+  padding: 20px;
+  width: calc(100% - 100px);
+  background-color: rgb(108, 139, 174);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Projects p {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: white;
+  width: calc(100% - 60%);
+}
+
+.contact{
+    height: fit-content;
+  padding: 20px;
+  width: calc(100% - 100px);
+  background-color: rgb(193, 111, 111);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.contact p {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: white;
+  width: calc(100% - 60%);
+
+}
+
+.footer {
+  height: 50px;
+  width: 100%;
+  background-color: navy;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
